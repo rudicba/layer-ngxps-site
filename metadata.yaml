@@ -1,0 +1,13 @@
+name: ngxps-site
+summary: Layer for building nginx pagespeed static sites
+maintainer: Rodolfo E. Edelmann <rudicba@gmail.com>
+description: |
+  Layer for building nginx pagespeed static sites
+tags:
+  - ops
+  - network
+  - web_server
+  - perfomance
+subordinate: true
+series:
+  - trusty

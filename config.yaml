@@ -1,0 +1,11 @@
+options:
+  default_site:
+    type: string
+    default: 'https://github.com/peterfinlan/Boxify/archive/master.zip'
+    description: |
+      Remote file with index.html or index.html.
+  root:
+    type: string
+    default: 'Boxify-master'
+    description: |
+      Path to index.html or index.htm inside default_site zip file.
