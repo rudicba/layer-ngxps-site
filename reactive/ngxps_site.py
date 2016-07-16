@@ -18,7 +18,9 @@ def install_site(engine):
         return
 
     site_path = os.path.join('/usr/local/nginx/html', hookenv.service_name())
-    rmtree(site_path)
+
+    if os.path.isdir(site_path):
+        rmtree(site_path)
 
     handler = ArchiveUrlFetchHandler()
     handler.install(config['default_site'], site_path)
