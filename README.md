@@ -1,2 +1,2 @@
-# layer-ngxps-site
-Layer for deploying static sites in Nginx Pagespeed
+# ngxps-site
+Subordinate for deploying static sites in Nginx Pagespeed

@@ -11,3 +11,4 @@ tags:
 subordinate: true
 series:
   - trusty
+  - xenial
