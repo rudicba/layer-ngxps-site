@@ -30,8 +30,9 @@ def install_site(engine):
     engine.configure(root=root,
                      listen=config['listen'],
                      server_name=config['server_name'],
+                     access_log=config['access_log'],
                      RewriteLevel=config['RewriteLevel'],
                      EnableFilters=config['EnableFilters'],
                      LearningMode=config['LearningMode'])
 
-    status_set('active', '{} running'.format(config['default_site']))
+    status_set('active', '{} running'.format(config['server_name']))

@@ -10,5 +10,5 @@ tags:
   - perfomance
 subordinate: true
 series:
-  - trusty
   - xenial
+  - trusty
